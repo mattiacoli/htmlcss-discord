@@ -195,28 +195,20 @@ section {
   padding: 2rem 0;
   display: flex;
   position: relative;
-
+ 
 
   .d-flex {
     display: flex;
     justify-content:space-between;
-
   }
 
-  .d-flex-reverse {
-    display: flex;
-    flex-direction: row-reverse;
-  }
 
   .img-items {
 
-    width: 70%;
-    
+    width: 70%; 
 
     img{
-      width: 35rem;
-
-  
+      width: 35rem;  
     }
 
   }
