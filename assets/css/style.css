@@ -156,16 +156,13 @@ button {
   align-items: center;
   background-color: var(--bg-primary);
   background-image: url(../img/jumbo.png);
-  background-size:cover;
+  background-size: cover;
 
   .jumbo-item {
     text-align: center;
     color: white;
     padding: 1rem 5rem;
     margin-bottom: 2rem;
-     
-
-  
 
 
     h1 {
@@ -175,7 +172,7 @@ button {
 
     p {
       font-size: 1rem;
-      font-weight:400;
+      font-weight: 400;
       margin-bottom: 2rem;
       line-height: 1.5rem;
 
@@ -210,9 +207,20 @@ section {
     flex-direction: row-reverse;
   }
 
-  .section-items {
+  .img-items {
 
-    width: 60%;
+    width: 70%;
+    
+
+    img{
+      width: 35rem;
+    }
+
+  }
+
+  .text-items {
+    width: 30%;
+    padding-top: 1.5rem;
 
     h2 {
       font-size: 2rem;
@@ -224,10 +232,6 @@ section {
       font-weight: 400;
       margin: 1rem;
     }
-  }
-
-  .section-items:last-child {
-    width: 40%;
   }
 }
 
@@ -327,4 +331,3 @@ section {
 
   }
 }
-
