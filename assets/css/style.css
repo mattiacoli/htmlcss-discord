@@ -199,7 +199,8 @@ section {
 
   .d-flex {
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
+
   }
 
   .d-flex-reverse {
@@ -214,6 +215,8 @@ section {
 
     img{
       width: 35rem;
+
+  
     }
 
   }
@@ -232,6 +235,13 @@ section {
       font-weight: 400;
       margin: 1rem;
     }
+
+  }
+}
+
+#community{
+  img {
+    margin-left: 5.5rem;
   }
 }
 
