@@ -275,6 +275,7 @@ section {
 
 .wave {
   position: absolute;
+  width: 100%;
   top: -100px;
   left: 0;
   overflow: hidden;
