@@ -195,20 +195,20 @@ section {
   padding: 2rem 0;
   display: flex;
   position: relative;
- 
+
 
   .d-flex {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
   }
 
 
   .img-items {
 
-    width: 70%; 
+    width: 70%;
 
-    img{
-      width: 35rem;  
+    img {
+      width: 35rem;
     }
 
   }
@@ -232,7 +232,7 @@ section {
   }
 }
 
-#community{
+#community {
   img {
     margin-left: 5.5rem;
   }
@@ -240,25 +240,30 @@ section {
 
 #tecnology {
 
+
   .tech-items {
     text-align: center;
     padding: 1rem;
+    margin-bottom: 2rem;
 
     h2 {
       font-size: 2rem;
       margin-bottom: 1rem;
     }
 
-    p{
+    p {
       line-height: 1.5rem;
       margin-bottom: 2rem;
       font-size: 18px;
     }
 
     h3 {
+
       font-size: 1.5rem;
       margin-bottom: 2rem;
-      margin-top: 2.5rem;
+      background-image: url(../img/stars.svg);
+      background-repeat: no-repeat;
+      background-position: center;
     }
 
     button {
@@ -305,7 +310,7 @@ section {
   }
 
   #foot-recap {
-    
+
     padding-top: 1.5rem;
 
     h2 {
@@ -314,15 +319,17 @@ section {
       margin-bottom: 1.5rem;
     }
 
-    img{
-      width:1.5rem;      
+    img {
+      width: 1.5rem;
     }
 
-    form{
+    form {
       display: inline-block
-    };
+    }
 
-    select{
+    ;
+
+    select {
       border: none;
       background-color: transparent;
       color: white;
@@ -356,5 +363,16 @@ section {
       }
     }
 
+  }
+
+  .social-logo{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+
+    &:hover{
+      cursor: pointer;
+    }
+    
   }
 }
